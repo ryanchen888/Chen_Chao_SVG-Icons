@@ -1,0 +1,38 @@
+.hidden {
+    display: none;
+}
+body {
+    padding: 30px;
+    background-color: rgb(117, 117, 117);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-template-columns: repeat(6, 122px);
+    grid-column-gap: 30px;
+    margin-left: 480px;
+}
+
+
+
+
